@@ -1,0 +1,114 @@
+.container{
+    margin:0;
+    padding:0;
+    width: 100;
+    box-sizing: border-box;
+    display: inline-flex;  
+}
+
+.content{
+    width:51%; 
+    margin-top: 7rem; 
+}
+
+.container.content.box{
+    position: relative;
+    display: flex;
+}
+
+.content .box .text{
+    display: flex;
+    margin-left: 22rem;
+    flex-direction: column;
+}
+
+.content .box .text h1{
+    display: inline;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(5, 60, 90);    
+}
+
+.content .box .text .txt{
+    display: inline-flex;
+    flex-direction: row;
+} 
+
+.content .box .text h2{
+    
+    font-weight: 500;
+}
+
+.content .box .text p{
+    font-weight: 300;
+}
+
+.regForm{
+    width: 40%;
+    padding: 40px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    border: 1px solid;
+    height: 38rem;
+    width:20rem
+}
+
+.regForm h1{
+    font-weight :500;
+    color: rgb(5, 60, 90);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.regForm p{
+    font-weight: 200;
+    text-align: center;
+}
+
+.regForm h4{
+    font-weight: 200;
+    text-align: center;
+    object-fit: cover;
+}
+
+.regForm .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;  
+}
+
+.regForm a{
+    text-decoration: none;
+}
+
+.regForm .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    padding-left: 1.5rem;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.regForm .inputbox select{
+    width: 19rem;
+    padding: 5px 0;
+    font-size: 16px;
+    padding-left: 1.5rem;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.regForm button{
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 0.6rem;
+    font-weight: 600;
+    background-color: rgb(4, 4, 71);
+    color: white;
+}
+ 
