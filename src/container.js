@@ -32,7 +32,7 @@ function Container() {
                 setMobile(e.target.value)
             }if(e.target.name==='country'){
                 setCountry(e.target.value)
-            } else  if(e.target.name==='state'){
+            } if(e.target.name==='state'){
                 setState(e.target.value)
             }else if(e.target.name==='city') {
                 setCity(e.target.value)
@@ -67,7 +67,7 @@ function Container() {
             <div className='box'>  
                 <div className='text'>
                     <div  className='txt'>
-                        <div > <img src={splogo} style={{width:'3rem', height:'3rem', marginTop:'3px', paddingRight:'1rem'}}></img> </div>
+                        <div > <img src={splogo} style={{width:'3rem', height:'3rem', marginTop:'3px', paddingRight:'1rem'}} ></img> </div>
                         <div><h1>Stars Payroll</h1></div>
                     </div> 
                 </div>
